@@ -1,0 +1,65 @@
+{
+    "main": {
+        "version": "aplha 1.0",
+        "firstRelease": "2.11.2021",
+        "author": "Kristián Koribský",
+        "title": [
+            "uMath",
+            "version aplha 1.0",
+            "created by: Kristián Koribský"
+        ],
+        "intro": [
+            "\nPlease select the branch of mathematics which you would like to practice.",
+            "-------------------------------------------------------------------------"
+        ],
+        "info": [
+            "\nThis program is intended as a practice tool for revising mathematical calculations.",
+            "After each practice session your performance will be saved in the application root directory 'statistics.txt'.",
+            "Additionaly, there is an option of creating your own quick start presets to skip tedious mode selection and setups.",
+            "Please use the pre-created 'presets.txt' file for that purpose. (instructions on how to do so are provided there)"
+        ],
+        "file_intros": {
+            "presets": [
+                "This file is intended for creating/storing quick-play presets.",
+                "\nTo see how to create your own preset see the formula, or some already pre-created default presets below",
+                "FORMULA:",
+                "id:            ---",
+                "preset name:   ---",
+                "operations:    ---",
+                "digits:        --- (must be whole number)",
+                "time limit:    --- (in minutes)",
+                "\n---------------------------------------------------------------------------------------------------------------------",
+                "\nDEFAULT PRESETS:",
+                "#q1",
+                "all-operands 1-digit quick-play",
+                "[+, -, *, /]",
+                "1",
+                "1",
+                "\n#q2",
+                "sum-mult 1-digit rapid-play",
+                "[+, -]",
+                "1",
+                "0.5",
+                "\nUSER PRESETS:"
+            ],
+            "statistics": [
+                "This file is intended for storing user statistics of practice sessions.",
+                "\nExplanation of terms:",
+                "         Absolute performance -> ratio of total problems to correct answers",
+                "         Relative performance -> total/overall performance, which takes into account: absolute perf, digits, operations multipliers, time limit",
+                "\nWarning: Last line should ALWAYS contain total average of relative performances (*see the last line)",
+                "         in order to load those stats properly, if any problem occurs, please fix the file or consider deleting",
+                "         this file entirely so that it can be created anew by the program. (previous stats will be lost)",
+                "\n---------------------------------------------------------------------------------------------------------------------"
+            ]
+        }
+    },
+    "modules": {
+        "arithmetic": {
+            "description": [
+                "\nArithmetic is the branch of mathematics that deals with the study of numbers using various operations on them.",
+                "Basic operations of math are addition, subtraction, multiplication and division."
+            ]
+        }
+    }
+}
